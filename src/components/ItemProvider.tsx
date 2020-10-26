@@ -1,7 +1,7 @@
 import {Train} from "./Train";
 import PropTypes from 'prop-types';
 import React, {useCallback, useEffect, useReducer} from "react";
-import {createItem, getItems, newWebSocket, updateItem} from "./trainApi";
+import {createItem, getItems, newWebSocket, updateItem} from "./api/trainApi";
 
 type SaveItemFn = (item: Train) => Promise<any>;
 

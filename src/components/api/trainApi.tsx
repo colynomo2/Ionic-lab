@@ -1,5 +1,5 @@
 import axios from 'axios'
-import {Train} from "./Train";
+import {Train} from "../Train";
 
 const baseUrl = 'localhost:3000'
 const itemUrl = `http://${baseUrl}/Train`
