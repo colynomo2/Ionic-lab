@@ -43,7 +43,7 @@ interface MessageData {
     }
 }
 
-//TODO add logs
+//TODO logs
 export const newWebSocket = (onMessage: (data: MessageData) => void) => {
     const ws = new WebSocket(`ws://${baseUrl}`)
     ws.onopen = () => {

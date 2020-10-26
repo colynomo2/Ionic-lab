@@ -88,7 +88,7 @@ export const ItemProvider: React.FC<ItemProviderProps> = ({children}) => {
 
         async function fetchItems() {
             try {
-                //TODO Pune logs
+                //TODO logs
                 dispatch({type: FETCH_ITEMS_STARTED});
                 const items = await getItems();
                 if (!canceled) {
